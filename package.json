@@ -4,6 +4,7 @@
   "description": "WebVR Badminton",
   "main": "index.js",
   "scripts": {
+    "server": "live-server ./public",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
