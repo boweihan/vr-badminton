@@ -1,0 +1,25 @@
+{
+  "name": "vr-badminton",
+  "version": "0.0.1",
+  "description": "WebVR Badminton",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/boweihan/vr-badminton.git"
+  },
+  "keywords": [
+    "Badminton"
+  ],
+  "author": "Bowei Han",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/boweihan/vr-badminton/issues"
+  },
+  "homepage": "https://github.com/boweihan/vr-badminton#readme",
+  "dependencies": {
+    "aframe": "^1.0.4"
+  }
+}
