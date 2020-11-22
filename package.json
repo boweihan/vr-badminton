@@ -2,9 +2,10 @@
   "name": "vr-badminton",
   "version": "0.0.1",
   "description": "WebVR Badminton",
-  "main": "index.js",
+  "private": true,
   "scripts": {
-    "server": "live-server ./public",
+    "build": "webpack",
+    "serve": "live-server ./dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -22,5 +23,9 @@
   "homepage": "https://github.com/boweihan/vr-badminton#readme",
   "dependencies": {
     "aframe": "^1.0.4"
+  },
+  "devDependencies": {
+    "webpack": "^5.6.0",
+    "webpack-cli": "^4.2.0"
   }
 }
